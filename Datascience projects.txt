@@ -1,0 +1,42 @@
+jupyter notebook looks like a wessite or webpage but it is not a web page or static pageas wecan execute.
+
+##To make a note in jupyter 
+3hashes and write text and chnage the code to markown
+### Datascience (select dropdown)then Alt+enter.
+
+jupyter.org==> supports 40 programming languages
+Data: Raw information from n sources like transformational data from e-commerce, survey, images data
+
+science: process of exploring data to get some insights of data.
+Applying scientific methods to extract some insights from data (all about analysis an prediction using scientific methods like deep learning, AI and time series).
+
+Ex: Lets think we have 2 routes to reach office (A and B). A pathe is shortest but probability of traffic is high and B is longest path.
+Now our problem is to find the fastest path to reach office and we need t collect information accoring to data.
+
+>>>Steps in data science:
+1. Identify the datascience problem
+2. Collect data according to the problem
+3. Data preprocessing--(remove unnecessary things): it is the process of making the ata ready for analysis and prediction.
+Data exploration and visualisation.
+>>Applications:
+1.Uber/Ola
+2. Google maps==> u will reach in this time.
+3. Amazon recommenation products
+4.Netflix recommenation
+Traffic , facebook, instagram,
+
+
+>>>Life cycle of Datascience and ML projects (PROCESS OF EXECUTION)
+STEP1: Usecase: It is our problem like we need to predict if the person is diabetic or not.
+Step2: Business understanding(Dta collection involves Business analytics and subject expert)
+sTEP3: Finding data (Data analyst/data scientist) through thor party APIs, databases, data sources==> All these data was trnsferre to Big data Engineer==> perform Data trnsformation to data to get Data quality==> then sent to data scientist(checks ata is in right format or not) for prediction
+step4: Data cleaning (missing values 
+step5: Feature engineering***imp step(takes 70% time)(check each and every feature so that it is applicable to ML ALGO)
+STEP6: Feature encoding (categorical data like gender): string data is not applicable to ML since machine learning is all about mathematics, probablity,vectors,linear algebra, stochastic process.
+a)Nominal data==. perform Onehot encoding==> pd.get_dummies(df['colname'], drop_first=True) (##drop_first=TRUE MEANS REMOVES REPETATIVE ROWS)
+B)Ordinal data ==> perform label encoding
+step7:Feature selection (select k features from n features(k<n)
+step8: Depending of usecase (Regression, classification, clustering, time series)
+ apply ML 
+step9: Hyper parameter tuning==> to find the optimised parameters
+(Shift+Tab) for documentation.
